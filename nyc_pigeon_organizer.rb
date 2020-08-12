@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
         end
         
         ##finally, we add the value (ie purple) to the category hash (ie color) of our pigeon (ie Theo)
-        new_pigeon_list[name][category].push(value)
+        new_pigeon_list[name][category].push(value.to_s)
       end
     end
   end
